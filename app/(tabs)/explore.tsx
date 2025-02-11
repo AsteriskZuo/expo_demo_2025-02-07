@@ -8,13 +8,12 @@
 import * as React from 'react';
 import {Pressable, SafeAreaView, Text, View} from 'react-native';
 import {
+  Container,
   ChatConversationType,
   ConversationDetail,
   TextInput,
   useChatContext,
-} from 'react-native-chat-uikit';
-
-import {Container} from 'react-native-chat-uikit';
+} from 'react-native-agora-chat-uikit';
 
 const appKey = 'easemob#easeim';
 const userId = 'zuoyu';

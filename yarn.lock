@@ -1168,6 +1168,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@easemob/react-native-create-thumbnail@npm:*":
+  version: 1.6.6
+  resolution: "@easemob/react-native-create-thumbnail@npm:1.6.6"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/f10658bf7a0606edeae13968116f94ee6a3198b70c932821d22c48fa986e3254c303dcfeb29aa34f0f0d02ee78e6989dbf174a797db3fb01c544e9376c1ccd7e
+  languageName: node
+  linkType: hard
+
 "@egjs/hammerjs@npm:^2.0.17":
   version: 2.0.17
   resolution: "@egjs/hammerjs@npm:2.0.17"
@@ -4785,6 +4795,7 @@ __metadata:
   resolution: "expo_demo_2025-02-07@workspace:."
   dependencies:
     "@babel/core": "npm:^7.25.2"
+    "@easemob/react-native-create-thumbnail": "npm:*"
     "@expo/vector-icons": "npm:^14.0.2"
     "@react-native-async-storage/async-storage": "npm:^2.1.1"
     "@react-native-camera-roll/camera-roll": "npm:^7.9.0"
@@ -4815,10 +4826,9 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     react-native: "npm:0.76.7"
+    react-native-agora-chat: "npm:1.3.2"
+    react-native-agora-chat-uikit: "npm:2.0.0-beta.0"
     react-native-audio-recorder-player: "npm:^3.6.12"
-    react-native-chat-sdk: "npm:^1.8.0"
-    react-native-chat-uikit: /Users/asterisk/tmp2025/2025-01-20/react-native-chat-uikit-2.4.2
-    react-native-create-thumbnail: "npm:^2.0.1"
     react-native-device-info: "npm:^14.0.4"
     react-native-document-picker: "npm:^9.3.1"
     react-native-fast-image: "npm:^8.6.3"
@@ -8381,32 +8391,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-audio-recorder-player@npm:^3.6.12":
-  version: 3.6.12
-  resolution: "react-native-audio-recorder-player@npm:3.6.12"
-  dependencies:
-    hyochan-welcome: "npm:^1.0.0"
+"react-native-agora-chat-uikit@npm:2.0.0-beta.0":
+  version: 2.0.0-beta.0
+  resolution: "react-native-agora-chat-uikit@npm:2.0.0-beta.0"
   peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/9e740463a43457bb1518361c79b691e803ad55c7f0fe8d7c49a97aecf31bdc87b03c0ba28a8f2a05b35bb83d08b5e2cc15af749903817f542406cfe9602abf32
-  languageName: node
-  linkType: hard
-
-"react-native-chat-sdk@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "react-native-chat-sdk@npm:1.8.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/15e6a3369afe090c222e2ce739f7eb8b63c8ed04b14eb188c41b787ee69e50344806a8dc7352238096c1d75589d9f282d760d57770a6c501cd48c00f616beea6
-  languageName: node
-  linkType: hard
-
-"react-native-chat-uikit@file:/Users/asterisk/tmp2025/2025-01-20/react-native-chat-uikit-2.4.2::locator=expo_demo_2025-02-07%40workspace%3A.":
-  version: 2.4.2
-  resolution: "react-native-chat-uikit@file:/Users/asterisk/tmp2025/2025-01-20/react-native-chat-uikit-2.4.2#/Users/asterisk/tmp2025/2025-01-20/react-native-chat-uikit-2.4.2::hash=75a83b&locator=expo_demo_2025-02-07%40workspace%3A."
-  peerDependencies:
+    "@easemob/react-native-create-thumbnail": ">=1.6.4"
     "@react-native-async-storage/async-storage": ">=1.17.11"
     "@react-native-camera-roll/camera-roll": ">=5.6.0"
     "@react-native-clipboard/clipboard": ">=1.11.2"
@@ -8414,9 +8403,8 @@ __metadata:
     pure-uuid: ">=1.6.3"
     react: "*"
     react-native: "*"
+    react-native-agora-chat: ">=1.3.0"
     react-native-audio-recorder-player: ">=3.5.3"
-    react-native-chat-sdk: ">=1.3.1"
-    react-native-create-thumbnail: ">=1.6.6"
     react-native-device-info: ">=10.12.0"
     react-native-document-picker: ">=9.0.1"
     react-native-fast-image: ">=8.6.3"
@@ -8438,16 +8426,29 @@ __metadata:
   peerDependenciesMeta:
     react-native-fast-image:
       optional: true
-  checksum: 10c0/4bbb2aa8563301344acc4a5b581d14a2a57790d3a985f9030d90b5c740697ab6affccf2cd1bc55487b5b1ae23441941c482e70346fcb579c22dda310e7426b70
+  checksum: 10c0/83855aa2a5e9c5408d6e03bb2800316a0926a83ad2246177501c0e48fef8604b6f59172650499edd8b085f8ac66eceaf77fcf71ac4f44b578e4cc2431424af37
   languageName: node
   linkType: hard
 
-"react-native-create-thumbnail@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "react-native-create-thumbnail@npm:2.0.1"
+"react-native-agora-chat@npm:1.3.2":
+  version: 1.3.2
+  resolution: "react-native-agora-chat@npm:1.3.2"
   peerDependencies:
-    react-native: ">=0.59.0"
-  checksum: 10c0/ae3bcf48ebece2b04830a72a87456766933b836c86bad83946a51328a2d5f741f94f65c20a31dcf4dd26f1334f45114bd2842643fecd5440e60d064ecd393669
+    react: "*"
+    react-native: ">=0.63.5"
+  checksum: 10c0/38b05971ed0d2eeb6a9442bd03328b6f4c1c35e151c429076e0345974cbf5c17b74f86bf882e7e114a6507f175cc3fb43e3fb142c15a3297322f9d40ce5d8c52
+  languageName: node
+  linkType: hard
+
+"react-native-audio-recorder-player@npm:^3.6.12":
+  version: 3.6.12
+  resolution: "react-native-audio-recorder-player@npm:3.6.12"
+  dependencies:
+    hyochan-welcome: "npm:^1.0.0"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/9e740463a43457bb1518361c79b691e803ad55c7f0fe8d7c49a97aecf31bdc87b03c0ba28a8f2a05b35bb83d08b5e2cc15af749903817f542406cfe9602abf32
   languageName: node
   linkType: hard
 
